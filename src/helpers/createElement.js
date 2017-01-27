@@ -1,6 +1,6 @@
 // @flow
-import type {Node, Element} from './types/Element';
-import {EMPTY_CHILDREN} from './Constants/Constants';
+import type {Node, Element} from '../types/Element';
+import {EMPTY_CHILDREN} from '../Constants/Constants';
 
 function createElement(tagName: string,
                        attributesAndEvents: ?{[key: string]: string | Function},

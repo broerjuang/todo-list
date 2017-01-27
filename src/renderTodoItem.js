@@ -1,5 +1,5 @@
 // @flow
-import createElement from './createElement';
+import createElement from './helpers/createElement';
 
 import type {Element} from './types/Element';
 import type {TodoItem} from './types/TodoItem';
